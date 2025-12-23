@@ -47,6 +47,10 @@ dependencies:
   retrofit_generator: ^10.2.0
   pretty_dio_logger: ^1.4.0
   intl: ^0.20.2
+  #An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
+  flutter_svg: ^2.2.3
+  #A flutter plugin for adapting screen and font size.
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_test:
