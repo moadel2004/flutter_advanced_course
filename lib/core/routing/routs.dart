@@ -1,4 +1,4 @@
 class Routs {
   static const String onBoardingscreen = '/onBoardingScreen';
-  static const String homescreen = '/loginScreen';
+  static const String loginScreen = '/loginScreen';
 }
