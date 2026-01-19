@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:youtube_course/core/helpers/extension.dart';
+import 'package:youtube_course/core/routing/routs.dart';
 import 'package:youtube_course/core/theming/colors.dart';
 import 'package:youtube_course/core/theming/styles.dart';
+import 'package:youtube_course/features/ui/login_screen.dart';
 
 class GetStartedButtom extends StatelessWidget {
   const GetStartedButtom({super.key});
@@ -10,7 +13,9 @@ class GetStartedButtom extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () {
+          context.pushNamed(Routs.loginScreen);
+        },
         style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all<Color>(
             colorsManager.mainBlue,
